@@ -2,6 +2,8 @@
 
 New Tab Key Hub is a cool and efficient way to navigate the web. It's a Google Chrome extension that allows you to go to your desired website with a single key press. No more typing out long URLs or searching through your bookmarks. Just open a new tab, hit 'Esc' to shift focus from the URL bar, and press the key for your desired site. It's that simple!
 
+Adding your own URLs is very simple too. Just open the `script.js` file and look for the `links` object. This object contains key-value pairs where the key is the keyboard key and the value is the URL you want to open when that key is pressed. To add a new URL, just add a new key-value pair to this object.
+
 ## Installation
 
 Follow these steps to install New Tab Key Hub in Google Chrome:
