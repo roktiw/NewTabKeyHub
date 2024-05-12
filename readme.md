@@ -14,4 +14,6 @@ Follow these steps to install New Tab Key Hub in Google Chrome:
 4. Click on the "Load unpacked" button.
 5. Navigate to the directory where you downloaded or cloned this repository and select it.
 
-Now, New Tab Key Hub should be installed in your browser. Enjoy your new, efficient way of navigating the web!
+Now, New Tab Key Hub should be installed in your browser.
+
+Enjoy your new, efficient way of navigating the web!
