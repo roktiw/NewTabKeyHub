@@ -1,0 +1,92 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.key {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.key:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.key img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.key .letter {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.key .name {
+    font-size: 14px;
+    color: #333;
+}
+
+.key::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    background-color: #ddd;
+    border-bottom: 1px solid #bbb;
+}
+
+.key.extra-key::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    background-color: #ddd;
+}
+
+.key.extra-key {
+    height: 20px;
+    background-color: #ddd;
+    /* Add any other styles you want for the extra key */
+}
+
+.welcome-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    text-align: center;
+    font-size: 26;
+}

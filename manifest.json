@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Focus Override",
+    "version": "1.0",
+    "description": "Overrides the new tab page to focus on the page content instead of the omnibox.",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": ["tabs"]
+  }
